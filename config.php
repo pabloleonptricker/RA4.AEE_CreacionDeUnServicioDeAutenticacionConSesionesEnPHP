@@ -7,6 +7,9 @@
 //Concepto PHP Clave: 
 //Arrays (para usuarios), sesiones (session_start(), $_SESSION)
 
+//Centralización del inicio de sesión:
+session_start();
+
 //Definición de array de usuarios válidos:
 $usuarios = [
     'carlosbasulto' => '1234',
