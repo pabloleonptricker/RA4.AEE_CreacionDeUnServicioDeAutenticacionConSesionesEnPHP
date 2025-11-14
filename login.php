@@ -7,7 +7,9 @@
 //Concepto PHP Clave: 
 //Formularios HTML, método POST
 
-
+// Tarea: Inicializa la variable $error.
+// Verifica si hay un parámetro 'error' en la URL (lo enviará authenticate.php si falla).
+$error = isset($_GET['error']) && $_GET['error'] == 1;
 
 //HTML básico para el formulario de login:
 ?>
