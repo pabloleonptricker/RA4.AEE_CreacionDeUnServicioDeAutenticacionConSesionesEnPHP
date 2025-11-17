@@ -45,4 +45,5 @@ if ($login_exitoso) {
     //Si falla, redirigir de vuelta al login con un error
     header("Location: login.php?error=1");
     exit();
+}
 ?>
